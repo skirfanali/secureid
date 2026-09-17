@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Secrets — never commit real environment files, only .env.example
+.env
+.env.*
+!.env.example
+backend/.env
+
+# Vercel
+.vercel/
+
+# OS/editor cruft
+.DS_Store
+*.log
+npm-debug.log*
+.vscode/
+.idea/
+
+# Build output (if a bundler is ever added to the frontend)
+dist/
