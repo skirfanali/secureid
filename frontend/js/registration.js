@@ -1,11 +1,4 @@
-/**
- * Registration flow: register-details -> email-otp -> mobile-otp ->
- * mfa-setup -> [authenticator-setup -> mfa-verification] -> registration-success
- *
- * All state for the in-progress registration lives in `state` below and is
- * reset only when the user starts a fresh registration (data-nav to
- * register-details from outside this flow, or a successful account creation).
- */
+
 (function () {
   const state = {
     userId: null,

@@ -1,8 +1,4 @@
-/**
- * Client-side validation helpers. These mirror (but do not replace) the
- * backend validation in authService.js — the server re-checks everything
- * because frontend validation can always be bypassed.
- */
+
 
 const Validation = (() => {
   const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
